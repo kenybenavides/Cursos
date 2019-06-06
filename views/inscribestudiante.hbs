@@ -1,0 +1,43 @@
+{{>header}}
+<div class="titulos">
+    <h1 class="text-center">
+        Formulario para inscribirse en un curso
+    </h1>
+    <p class="text-center">
+        Utilice el formulario para inscribirse 
+    </p>
+</div>
+
+    <form action="/listarinscritos" method="post">
+<div class="form-group">
+    <div class="form-row">
+        <div class="col">
+        <input type="number" class="form-control" name="cedula" placeholder="Documento de identidad" required></br>
+        </div>
+        <div class="col">
+        <input type="email" class="form-control" name="correo" placeholder="Correo" required></br>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="col">
+        <input type="text" class="form-control" name="nombreEst" placeholder="Nombre completo" required></br>
+        </div>
+        <div class="col">
+         <input type="number" class="form-control" name="telefono" placeholder="Telefono" required></br>
+        </div>
+    </div>
+
+    <div class="form-row"> 
+            <div class="col">
+                {{{cursosInteresadoSelect}}}
+            </div>
+    </div> 
+    </br>
+            <button class="btn btn-dark btn-lg btn-block">Enviar</button>
+
+</div>
+
+    </form>
+
+
+{{>footer}}

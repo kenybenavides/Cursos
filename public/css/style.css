@@ -1,0 +1,60 @@
+body {
+    color: grey;
+    font-family: Arial;
+    min-height: 100vh;
+}
+
+.popover {
+    border: 2px dotted black;
+}
+
+
+/* Popover Header */
+
+.popover-title {
+    background-color: #999b9b;
+    color: #FFFFFF;
+    font-size: 28px;
+    text-align: center;
+}
+
+
+/* Popover Body */
+
+.popover-content {
+    background-color: #4c4d4d;
+    color: #FFFFFF;
+    padding: 25px;
+}
+
+
+/* Popover Arrow */
+
+.arrow {
+    border-right-color: black !important;
+}
+
+.titulo {
+    text-align: center;
+    color: white;
+}
+
+.tituldos {
+    text-align: center;
+}
+
+footer {
+    color: black;
+    border-top: 2px solid black;
+    margin-top: 16px;
+}
+
+header {
+    margin-top: 16px;
+    margin-bottom: 48px;
+}
+
+h1 {
+    font-size: 48px;
+    margin-bottom: 16px;
+}

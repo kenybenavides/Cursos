@@ -1,0 +1,48 @@
+{{>header}}
+    <div class="titulo">
+    <h2> FORMULARIO DE INGRESAR NUEVO CURSO</h2>
+    <p>
+       Ingresar curso
+    </p>
+    </div>
+    <h1 class="text-center">Registrar Curso</h1>
+    <form action="/listacurso" method="post">
+    <div class="form-group">
+    <div class="form-row">
+        <div class="col">
+        <input type="number" class="form-control" name="id" placeholder="Codigo" required></br>
+        </div>
+        <div class="col">
+        <input type="text" class="form-control" name="nombre" placeholder="Nombre" required></br>
+        </div>
+    </div>
+        <div class="form-row">
+            
+            <div class="col" >
+                 <select style="width:100%;" name="modalidad">
+                        <option disabled selected>Modalidad</option>
+						<option value="Virtual">Virtual</option>
+						<option value="Presencial">Presencial</option>
+                        <option value="mixto">Mixto</option>
+				</select>
+            </div>
+            <div class="col">
+            <input type="number" class="form-control" name="valor" placeholder="Valor" required></br>
+            </div>
+    </div>
+    <div class="form-row">
+            <div class="col">
+                <input type="number" class="form-control"  name="intensidadH" placeholder="Intensidad horaria" required></br>
+            </div>
+            <div class="col">
+                <textarea class="form-control" name="descripcion"  rows="3" placeholder="Descripcion"required></textarea>
+            </div>
+    </div>
+    
+   
+            <button class="btn btn-dark btn-lg btn-block">Guardar</button>
+    </div>
+
+    </form>
+   
+{{>footer}}

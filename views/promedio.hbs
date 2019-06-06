@@ -1,0 +1,33 @@
+{{>header}}
+{{{listar2}}}
+    <p>
+        Promedio estudiante
+    </p>
+    <form action="/calculos" method="post">
+<div class="form-group">
+    <div class="form-row">
+        <div class="col">
+        <input type="text" class="form-control" name="nombre" placeholder="Nombre" required></br>
+        </div>
+        <div class="col">
+        <input type="number" class="form-control" name="nota1" placeholder="nota1" required></br>
+        </div>
+    </div>
+    <div class="form-row">
+        <div class="col">
+        <input type="number" class="form-control" name="nota2" placeholder="nota2" required></br>
+        </div>
+        <div class="col">
+         <input type="number" class="form-control" name="nota3" placeholder="nota3" required></br>
+        </div>
+    </div>
+
+            <button class="btn btn-dark btn-lg btn-block">Enviar</button>
+
+</div>
+
+    </form>
+
+
+
+{{>footer}}

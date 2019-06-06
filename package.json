@@ -1,0 +1,22 @@
+{
+  "name": "servidor",
+  "version": "1.2.3",
+  "description": "node taller",
+  "main": "src/app",
+  "dependencies": {
+    "body-parser": "^1.19.0",
+    "bootstrap": "^4.3.1",
+    "express": "^4.17.0",
+    "express-handlebars": "^3.1.0",
+    "hbs": "^4.0.4",
+    "jquery": "^3.4.1",
+    "node-dev": "^4.0.0",
+    "popper.js": "^1.15.0"
+  },
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "ISC"
+}
